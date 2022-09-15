@@ -1,5 +1,7 @@
 # TIL
-Today I learned
+>Today I learned
 
+## Java8
+* [lambda](Java8/Lambda.md)
 ## Tools
-* [IntelliJ](www.google.com)
+* [IntelliJ](Tools/IntelliJ.md)
