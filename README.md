@@ -10,6 +10,10 @@
 * JPA
   * [JPA_Mapping](ORM/JPA/JPA_Mapping.md)
 
+## DB
+* RDB
+  * [RDB Data Modeling](DB/RDB/RDB_Data_Modeling.md)
+
 ## SSR
 * [Thymeleaf](SSR/Thymeleaf.md)
 
