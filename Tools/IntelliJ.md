@@ -19,4 +19,6 @@
 |Ctrl + Alt + V|변수 추출
 |sout|System.out.println();
 |Ctrl + 클릭| 연결된 곳으로 가기
-
+|Ctrl + Alt + N|인라인
+|fn + 좌/우 화살키|라인 끝으로 이동
+|Ctrl + Shift + N|File 검색
