@@ -74,3 +74,22 @@ Stack<Integer> stack = new Stack<>();
 
 </br>
 
+## Deque
+* 양 끝에서 데이터를 삽입하거나 삭제할 수 있는 자료구조이다.
+* 스택으로도 큐로도 사용할 수 있다.
+
+</br>
+
+### 덱 구현
+Deque 인터페이스를 구현한 ArrayDeque, LinkedList 등의 클래스가 있다. 
+```java
+Deque<String> stack = new LinkedList<>();
+```
+### 스택 주요 함수
+ * addFirst() - 왼쪽에서 요소 삽입
+ * removeFirst() - 왼쪽에서 요소 삭제
+ * addLast() - 오른쪽에서 요소 삽입
+ * removeLast() - 오른쪽에서 요소 삭제
+ * getFirst() - 왼쪽에서 요소를 제거하지 않은채 반환. 비어있으면 예외 발생.
+ * getLast() - 오른쪽에서 요소를 제거하지 않은채 반환.
+ * isEmpty() - 비어있는지 확인.
