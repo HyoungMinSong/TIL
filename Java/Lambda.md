@@ -21,7 +21,7 @@ return문 생략 가능.
 끝에 ; 안 붙임.
 
 
-매개변수의 타입이 추론이 가능하면 타입은 생략 가능하다.
+매개변수의 타입이 추론이 가능하면 타입은 생략 가능하다. (보통 제네릭스를 통해 추론)
 
 </br>
 
@@ -70,7 +70,18 @@ return문 생략 가능.
 
 </br>
 
-## ~~함수형인터페이스를 사용하는 컬렉션 프레임웍~~
+## 함수형인터페이스를 사용하는 컬렉션 프레임웍
+|인터페이스|메서드|설명
+|:---:|:---:|:---:|
+|Collection|boolean removeIf(Predicate<T> filter)| 조건의 element 제거
+|List|void replaceAll(UnaryOperator<T> operator)|모든 element를 변환하여 대체
+|Iterable|void forEach(Consumer<T> action)|모든 element에 대해 action 수행
+|Map| 	V compute(K key, BiFunction<K, V, V> f)|지정된 key에 대해 f 수행
+|Map|V computeIfAbsent(K key, Function<K, V> f)|key가 없을 경우 f 수행 후 추가
+|Map|V computeIfPresent(K key, BiFunction<K, V, V> f)|지정된 key가 있을 때 f 수행
+|Map|V merge(K key, V value, BiFunction<V, V, V> f)|모든 element에 대해 f 병합작업 수행
+|Map|void forEach(BiConsumer<K, V> action)|모든 element에 대해 작업 action 수행
+|Map|void replaceAll(BiFunction<K, V, V> f)|모든 element에 대해 치환작업 f 수행
 
 </br>
 
