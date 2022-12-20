@@ -39,6 +39,14 @@ return문 생략 가능.
 
 람다식을 참조변수로 다룰 수 있다는 것은 메서드를 통해 람다식을 주고받을 수 있다는 것을 의미.
 
+```java
+///ex)
+@FunctionalInterface ///함수형 인터페이스 어노테이션
+public interface Comparator<T> {
+    int	compare(T o1, T o2)
+}
+```
+
 </br>
 
 ## java.util.function패키지
