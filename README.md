@@ -5,9 +5,12 @@
 * [Enum](Java/Enum.md)
 * [lambda](Java/Lambda.md)
 * [Stream](Java/Stream.md)
-* [Comparator&Comparable](Java/Comparator%26Comparable.md)
-* Data_Structures
-  * [Queue & Stack](Java/Data_Structures/Queue%26Stack.md)
+* Algorithm
+  * [Comparator&Comparable](Java/Algorithm/Comparator%26Comparable.md)
+  * [Recursion](Java/Algorithm/Recursion.md)
+  * Data_Structures
+    * [Queue & Stack](Java/Algorithm/Data_Structure/Queue%26Stack.md)
+
 
 ## ORM
 * JPA
